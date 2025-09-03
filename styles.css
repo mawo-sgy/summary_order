@@ -35,6 +35,17 @@ a {
     background-color: white;
     width: 400px;
     border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .info {
@@ -52,7 +63,15 @@ a {
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding: 1rem;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+.logo-subs {
+    display: flex;
+    gap: 1rem;
 }
 
 .button {
